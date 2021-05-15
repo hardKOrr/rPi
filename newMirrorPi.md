@@ -118,14 +118,30 @@ display_rotate=3
 ```
 # reboot daily at 6:30
 30 6 * * *  /sbin/shutdown -r now
+
 # monitor on daily at 7:00
 0 7 * * * vcgencmd display_power 1
+
 # monitor off daily at 16:00
 0 16 * * * vcgencmd display_power 0
+0 17 * * * vcgencmd display_power 0
+
 # reboot daily at 17:30
 30 17 * * * /sbin/shutdown -r now
+
 # monitor on daily at 18:00
 0 18 * * * vcgencmd display_power 1
+
 # monitor off daily at 20:00
 0 20 * * * vcgencmd display_power 0
+0 21 * * * vcgencmd display_power 0
+0 22 * * * vcgencmd display_power 0
+0 23 * * * vcgencmd display_power 0
+0 0 * * * vcgencmd display_power 0
+0 1 * * * vcgencmd display_power 0
+0 2 * * * vcgencmd display_power 0
+0 3 * * * vcgencmd display_power 0
+0 4 * * * vcgencmd display_power 0
+0 5 * * * vcgencmd display_power 0
+0 6 * * * vcgencmd display_power 0
 ```
