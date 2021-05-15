@@ -84,7 +84,7 @@ WantedBy=multi-user.target
 
 `sudo apt-get install -y python-sense-emu python3-sense-emu`
 
-`sudo apt-get install ttf-mscorefonts-installer`
+`sudo apt-get install -y ttf-mscorefonts-installer`
 
 ## ***Auto-Start***
 `sudo nano /etc/xdg/openbox/autostart`
