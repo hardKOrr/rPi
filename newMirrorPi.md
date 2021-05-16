@@ -29,10 +29,9 @@ IPQoS cs0 cs0
 - System Options
   - Password
   - Hostname
+  - Boot -> Console Autologin
 - Display Options
   - Resolution
-- Interface Options  
-  - VNC
 - Localisation
   - Timezone
 
