@@ -62,3 +62,7 @@ sudo systemctl enable docker
 - homeassistant/raspberrypi4-homeassistant:stable
 - karsten13/magicmirror:latest
 - linuxserver/qbittorrent
+
+## ***ToDo***
+- Need a better way to manage VPN, ideally so qbittorrent can see it and bind to it
+- Something doesn't like to auto connect smb, might be windows sharing
