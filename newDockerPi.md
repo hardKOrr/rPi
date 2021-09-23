@@ -61,3 +61,4 @@ sudo systemctl enable docker
 - cbcrowe/pihole-unbound:latest
 - homeassistant/raspberrypi4-homeassistant:stable
 - karsten13/magicmirror:latest
+- linuxserver/qbittorrent
